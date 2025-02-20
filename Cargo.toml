@@ -20,3 +20,6 @@ defmt = ["dep:defmt"]
 embedded-hal = { version = "^1.0", default-features = false }
 embedded-hal-async = { version = "^1.0", default-features = false }
 defmt = { version = "^0.3", optional = true }
+tartan-bitfield = "1.2.0"
+strum_macros = "0.27.1"
+num_enum = { version = "0.7.3", default-features = false }
